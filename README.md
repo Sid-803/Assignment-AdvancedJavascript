@@ -1,10 +1,12 @@
 # Assignment-AdvancedJavascript
 
-Valid credentials for LogIN
+1. Valid credentials for LogIN---
+  //refer index.js to see local storage
+  user name = "EmployeeSubmit" 
+  password = 12345
+____________________________________________________________________________________________________________________________________
 
-user name = "EmployeeSubmit" //refer index.js to see local storage
-password = 12345
-
-
-Keywords for search box-- "HR", "Software Engineer", "Manager". Hence, filtered data is displayed against these keywords only
+2. Valid keywords for search
+  Keywords for search box-- "HR", "Software Engineer", "Manager". Hence, filtered data is displayed against these keywords only
   other than these keywords search will be null
+ ____________________________________________________________________________________________________________________________________
