@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resume</title>
+  <link rel="stylesheet" href="resume.css" />
+  
+</head>
+<body>
+    <div id="heading" class="heading">
+        <input class="butt" type="submit" value="Previous" onclick="filterPrevious()"/>
+        <input id="search-box" type="text" autocomplete="on" class="search-box" placeholder="Search for keyword to filter resume" />
+        <input class="butt" type="submit" value="Next" onclick="filterNext()"/>
+    </div>
+       
+    <div id="outside" class="outside"> 
+            <div id="topBar1" class="topBar1">
+                <h1 id="name"></h1>
+                <h3 id="designation"></h3>  
+                <img class="img1" style="justify-content: right;" src="image.jpg" height="70px" width="70px"/>     
+            </div>
+
+            <div id="column1" class="column1">
+                <div id="sideBar" class="sideBar">
+                    <div id="PersonalInfo" class="PersonalInfo">
+                        <h3 class="header-sidebar"><b>Personal<br>Information</b></h3>
+                        <p id="phoneNumber" class="content-sidebar"></p>
+                        <p id="email" class="content-sidebar"></p>
+                        <p id="LinkedIn" class="content-sidebar"></p>
+                    </div>
+                        
+                    <div id ="Skills" class="PersonalInfo">
+                        <h3 class="header-sidebar"><b>Technical Skills</b></h3>
+                    </div>
+                        
+                    <div id="hobbies" class="PersonalInfo">
+                        <h3 class="header-sidebar"><b>Hobbies</b></h3>
+                    </div>
+                        
+                </div>      
+            </div>
+
+            <div id="column2" class="column2">
+                <div id="WorkEx" class="heading1">
+                    <h3 id="heading1"><b>Work Experience in Previous Company</b></h3>
+                </div>
+                <div id="Project" class="heading1">
+                    <h3 id="heading2"><b>Projects</b></h3>
+                </div>
+                <div id="Education"  class="heading1">
+                    <h3 id="heading3"><b>Education</b></h3>
+                </div>
+                <div id="Internship" class="heading1">
+                    <h3 id="heading4"><b>Internship</b></h3>
+                </div>
+                <div id="Achievements" class="heading1">
+                    <h3 id="heading5"><b>Achievements</b></h3>
+                </div>
+            </div>    
+    </div>
+  <script src = "./resume.js"></script>
+</body>
+</html>
